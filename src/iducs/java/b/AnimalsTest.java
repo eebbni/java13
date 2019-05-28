@@ -10,6 +10,13 @@ public class AnimalsTest {
 	}
 	
 	public static void main(String[] args) {
+		String str1 = "인덕대학교";
+		String str2 = "인퓨터소프트웨어학과";
+		
+		//Comparable Interface 에 정의된 메소드
+		System.out.print(str1.compareTo(str2));
+		//길이가 아닌 ㄱㄴㄷ순 차이
+		
 		Animals human = new Human();
 		enable(human);
 		//human.breathe();
